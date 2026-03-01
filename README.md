@@ -1,8 +1,8 @@
-# Identifying Fraudulent Transactions in Financial Payment Service Data using Ensemble Learning and SMOTE
+# Identifying Fraudulent Transactions in Financial Payment Service Data using Ensemble Learning
 
-We seek to develop a classifier for predicting fraudulent transactions for a financial company and use insights from the model to develop an actionable plan. The data consists of 6362620 rows and 11 columns, and is available in CSV format: 
+This project utilizes artificial payments data to develop a classifier for identifying fraudulent transactions. The data consists of 6,362,620 rows and 11 columns, and is available in CSV format. 
 
-> https://www.kaggle.com/datasets/arunavakrchakraborty/financial-payment-services-fraud-data
+The data can be accessed at: https://www.kaggle.com/datasets/arunavakrchakraborty/financial-payment-services-fraud-data
 
 **Handling Imbalanced Data:**
 
@@ -16,9 +16,9 @@ The workflow details how we handle the highly imbalanced dataset where fraud cas
 
 For each type of sampling, we implement the following Supervised Machine Learning methods for classification:
 
-> 1. **Logistic Regression (Baseline)** 
-> 2. **Ensemble Classifier:** Random Forest, Gradient Boosting, Bagging, XGBoost
-> 3. **Anomaly Detection:** Autoencoder, One-Class Support Vector Machine
+1. **Logistic Regression (Baseline)** 
+2. **Ensemble Classifier:** Random Forest, Gradient Boosting, Bagging, XGBoost
+3. **Anomaly Detection:** Autoencoder, One-Class Support Vector Machine
 
 Each model is evaluated using **Area Under the Curve - Precision Recall (AUC-PR)** on the Training, Testing, and Validation Datasets:
 
